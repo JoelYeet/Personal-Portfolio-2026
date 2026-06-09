@@ -31,45 +31,61 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "project-one",
-    title: "Project One",
-    category: "Brand Identity",
+    slug: "project-research",
+    title: "(Re)search",
+    category: "Brand Identity / UX",
     year: "2025",
-    description: "Short description of the project. Replace with your own copy.",
-    featured: true,
-    coverImage: { alt: "Project One cover" },
+    description: "An intern project for MINDEF where i helped designed an AI-powered research assistant to help analysts gather, organise, and synthesise information more efficiently while maintaining transparency and trust in AI-generated insights..",
+    featured: false,
+    coverImage: { src: "/images/(Re)search Cover.jpg", alt: "Project One cover" },
     caseStudy: {
-      subtitle: "Repositioning a legacy brand for a digital-first audience.",
+        subtitle: "An intern project for MINDEF where i helped designed an AI-powered research assistant to help analysts gather, organise, and synthesise information more efficiently while maintaining transparency and trust in AI-generated insights.",
       overview:
-        "A end-to-end identity refresh spanning strategy, visual language, and launch assets. Replace this overview with your project summary.",
-      role: "Lead Designer",
-      timeline: "12 weeks",
-      deliverables: ["Brand strategy", "Visual identity", "Design system", "Launch kit"],
+        "As the primary designer on the project during my internship, I was responsible for driving the end-to-end user experience of the platform, working closely with developers and stakeholders.",
+      role: "Primary Designer",
+      timeline: "16 weeks",
+      deliverables: ["Brand strategy", "Visual identity", "Design system", "Wireframing"],
       sections: [
         {
           id: "challenge",
           title: "The challenge",
           paragraphs: [
-            "The client needed a cohesive identity that felt contemporary without losing brand equity built over decades.",
-            "Stakeholders across marketing, product, and leadership each had different expectations for what the refresh should achieve.",
-          ],
-        },
-        {
-          id: "process",
-          title: "Process",
-          paragraphs: [
-            "Research began with stakeholder interviews and a competitive audit. Insights were synthesized into three strategic territories before moving into visual exploration.",
+            "I joined the project after it had recently evolved from a hackathon concept into a funded initiative with the goal of becoming an AI-assisted research platform for MINDEF and SAF defence analysts. The platform aimed to help users conduct research more efficiently by generating reports supported by accurate citations and verifiable sources, while operating within a secure and confidential environment.",
+            "As the project transitioned from proof-of-concept to product, one of the key challenges was the absence of a cohesive user experience. The existing MVP had minimal frontend development and lacked a clear visual identity, navigation structure, and interaction patterns. Users could access the platform's underlying capabilities, but the overall experience was fragmented and difficult to navigate.",
           ],
           images: [
             { alt: "Research synthesis board" },
-            { alt: "Early concept explorations" },
+            { alt: "Research synthesis board" }
+            ],
+        },
+        {
+          id: "initial process",
+          title: "Initial process",
+          paragraphs: [
+            "I started by reviewing the existing MVP, including its logo, interface, and user flows. Since the project had already been developed as a hackathon concept, it was important to understand what was working well and where users were running into difficulties.",
+            "To gather insights, I conducted informal interviews and observations with existing users of the platform. Watching how they completed research tasks helped me identify pain points, confusing interactions, and areas where the experience could be improved. I also created simple journey maps to better understand the overall research workflow.",
+            "Alongside user research, I referenced mainstream AI platforms such as ChatGPT and Claude. I studied how these products handled conversations, source citations, and research workflows, and used these findings to inform the design direction of the platform."
+          ],
+          images: [
+            { alt: "Research synthesis board" },
+              { alt: "Early concept explorations" },
           ],
         },
         {
-          id: "solution",
-          title: "Solution",
+          id: "revampedbranding",
+          title: "Revamped branding and DLS",
           paragraphs: [
-            "The final system balances a refined mark, flexible typography, and a restrained color palette that scales from social to product UI.",
+            "Since the project already had some visibility within the organisation, I wanted to build upon the existing branding rather than start from scratch. This helped maintain familiarity for existing users while giving the product a more polished and professional identity. I worked closely with stakeholders through several rounds of reviews and feedback to refine the visual direction.",
+            "I also developed a design language system that brought consistency to the platform's visual style, components, and interactions. This provided a foundation for future development while ensuring a cohesive experience across the product. Throughout the design process, I conducted multiple rounds of user testing to gather feedback, validate design decisions, and identify areas for improvement before implementation.",
+          ],
+          images: [{ alt: "Final identity system overview" },{ alt: "Final identity system overview" }],
+        },
+        {
+          id: "wireframinganditeration",
+          title: "Wireframing and iteration",
+          paragraphs: [
+            "I translated research findings and user observations into a series of wireframes and mockups, gradually moving from low-fidelity concepts to higher-fidelity designs. This iterative approach allowed me to explore different solutions while validating ideas with stakeholders throughout the process.",
+            "Because the product was being developed alongside the backend systems, I worked closely with engineers through regular sync sessions to ensure the design and technical implementation remained aligned. These discussions helped prevent disconnects between the intended user experience and the platform's underlying capabilities."
           ],
           images: [{ alt: "Final identity system overview" }],
         },
@@ -77,7 +93,8 @@ export const projects: Project[] = [
           id: "outcome",
           title: "Outcome",
           paragraphs: [
-            "The new identity rolled out across web, print, and campaign touchpoints. Early feedback highlighted improved clarity and stronger recognition among target users.",
+            "The platform was launched shortly before the end of my internship, which made it especially rewarding to see the project come together after months of design.",
+            "As one of my final tasks before completing my internship, my supervisor also entrusted me with creating a promotional video for the platform. It was a fun way to wrap up the project and gave me the opportunity to communicate the product's value and vision :)",
           ],
         },
       ],

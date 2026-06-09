@@ -3,8 +3,9 @@
     "",
     "\\app",
     "\\components",
-    "\\components\\case-study"
+    "\\components\\case-study",
+    "\\lib"
   ],
-  "SelectedNode": "\\components\\SiteHeader.tsx",
+  "SelectedNode": "\\components\\SelectedWorksSection.tsx",
   "PreviewInSolutionExplorer": false
 }

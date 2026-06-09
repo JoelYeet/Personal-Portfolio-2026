@@ -26,7 +26,7 @@ export function CaseStudyHero({ project }: CaseStudyHeroProps) {
                     {project.title}
                 </h1>
 
-                <p className="max-w-2xl font-mono text-base leading-relaxed text-portfolio-mist sm:text-lg">
+                <p className="w-full font-mono text-base leading-relaxed text-portfolio-mist sm:text-lg">
                     {project.caseStudy.subtitle}
                 </p>
             </div>

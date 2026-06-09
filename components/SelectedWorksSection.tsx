@@ -70,8 +70,7 @@ export function SelectedWorksSection() {
             selected works
           </h2>
           <p className="max-w-xl font-mono text-sm leading-relaxed text-portfolio-mist/80 sm:text-base">
-            A curated selection of recent design projects. Replace these placeholders
-            with your own work.
+            A curated selection of recent design projects.
           </p>
         </header>
 

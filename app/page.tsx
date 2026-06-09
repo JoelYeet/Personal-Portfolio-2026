@@ -1,3 +1,4 @@
+import { AboutSection } from "../components/AboutSection";
 import { HeroSection } from "../components/HeroSection";
 import { SelectedWorksSection } from "../components/SelectedWorksSection";
 import { SiteFooter } from "../components/SiteFooter";
@@ -10,6 +11,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <SelectedWorksSection />
+        <AboutSection />
       </main>
       <SiteFooter />
     </>

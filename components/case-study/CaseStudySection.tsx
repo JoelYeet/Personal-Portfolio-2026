@@ -15,13 +15,13 @@ export function CaseStudySection({ section }: CaseStudySectionProps) {
         {section.title}
       </h2>
 
-      <div className="flex max-w-3xl flex-col gap-4">
+      <div className="flex w-full flex-col gap-4">
         {section.paragraphs.map((paragraph, index) => (
           <p
             key={`${section.id}-${index}`}
             className="font-mono text-sm leading-relaxed text-portfolio-mist/80 sm:text-base"
           >
-            {paragraph}
+           {paragraph}
           </p>
         ))}
       </div>

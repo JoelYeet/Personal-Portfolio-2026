@@ -23,7 +23,7 @@ export function CaseStudyView({ project, previous, next }: CaseStudyViewProps) {
           >
             Overview
           </h2>
-          <p className="max-w-3xl font-mono text-sm leading-relaxed text-portfolio-mist/80 sm:text-base">
+          <p className="w-full font-mono text-sm leading-relaxed text-portfolio-mist/80 sm:text-base">
             {project.caseStudy.overview}
           </p>
         </section>
