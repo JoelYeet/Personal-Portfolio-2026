@@ -4,10 +4,17 @@ export type CaseStudyImage = {
   caption?: string;
 };
 
+export type CaseStudyYoutubeVideo = {
+  videoId: string;
+  title: string;
+  caption?: string;
+};
+
 export type CaseStudySection = {
   id: string;
   title: string;
   paragraphs: string[];
+  videos?: CaseStudyYoutubeVideo[];
   images?: CaseStudyImage[];
 };
 
@@ -37,7 +44,7 @@ export const projects: Project[] = [
     year: "2025",
     description: "An intern project for MINDEF where i helped designed an AI-powered research assistant to help analysts gather, organise, and synthesise information more efficiently while maintaining transparency and trust in AI-generated insights..",
     featured: false,
-    coverImage: { src: "/images/(Re)search Cover.jpg", alt: "Project One cover" },
+    coverImage: { src: "/images/(Re)search Cover.jpg", alt: "Project (Re)search" },
     caseStudy: {
         subtitle: "An intern project for MINDEF where i helped designed an AI-powered research assistant to help analysts gather, organise, and synthesise information more efficiently while maintaining transparency and trust in AI-generated insights.",
       overview:
@@ -54,8 +61,8 @@ export const projects: Project[] = [
             "As the project transitioned from proof-of-concept to product, one of the key challenges was the absence of a cohesive user experience. The existing MVP had minimal frontend development and lacked a clear visual identity, navigation structure, and interaction patterns. Users could access the platform's underlying capabilities, but the overall experience was fragmented and difficult to navigate.",
           ],
           images: [
-            { alt: "Research synthesis board" },
-            { alt: "Research synthesis board" }
+            { src: "/images/Old Research Branding.jpg", alt: "Existing Branding" },
+            { src: "/images/Old Research UI.jpg", alt: "Existing UI" }
             ],
         },
         {
@@ -95,6 +102,13 @@ export const projects: Project[] = [
           paragraphs: [
             "The platform was launched shortly before the end of my internship, which made it especially rewarding to see the project come together after months of design.",
             "As one of my final tasks before completing my internship, my supervisor also entrusted me with creating a promotional video for the platform. It was a fun way to wrap up the project and gave me the opportunity to communicate the product's value and vision :)",
+          ],
+          videos: [
+            {
+              videoId: "O0jc2h0vwKA",
+              title: "Project walkthrough video",
+              caption: "A short walkthrough of the final prototype.",
+            },
           ],
         },
       ],

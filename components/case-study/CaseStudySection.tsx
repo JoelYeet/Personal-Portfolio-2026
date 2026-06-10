@@ -1,5 +1,6 @@
 import type { CaseStudySection as CaseStudySectionType } from "../../lib/projects";
 import { CaseStudyMediaGrid } from "./CaseStudyMedia";
+import { CaseStudyVideoGrid } from "./CaseStudyVideo";
 
 type CaseStudySectionProps = {
   section: CaseStudySectionType;
@@ -25,6 +26,8 @@ export function CaseStudySection({ section }: CaseStudySectionProps) {
           </p>
         ))}
       </div>
+
+      {section.videos ? <CaseStudyVideoGrid videos={section.videos} /> : null}
 
       {section.images ? <CaseStudyMediaGrid images={section.images} /> : null}
     </section>

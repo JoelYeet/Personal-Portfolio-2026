@@ -3,7 +3,14 @@ import Link from "next/link";
 import { getAllProjects, getProjectHref } from "../lib/projects";
 import type { Project } from "../lib/projects";
 
-function ProjectCard({ slug, title, category, year, description, coverImage }: Project) {
+function ProjectCard({
+  slug,
+  title,
+  category,
+  year,
+  description,
+  coverImage,
+}: Project) {
   const href = getProjectHref(slug);
   const imageSrc = coverImage?.src;
   const imageAlt = coverImage?.alt ?? title;
