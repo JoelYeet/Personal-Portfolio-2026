@@ -74,7 +74,7 @@ export function SelectedWorksSection() {
             id="selected-works-heading"
             className="font-monofonto text-3xl tracking-portfolio text-portfolio-green sm:text-4xl"
           >
-            selected works
+            Selected products
           </h2>
           <p className="max-w-xl font-mono text-sm leading-relaxed text-portfolio-mist/80 sm:text-base">
             A curated selection of recent design projects.
