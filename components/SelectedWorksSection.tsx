@@ -3,6 +3,26 @@ import Link from "next/link";
 import { getAllProjects, getProjectHref } from "../lib/projects";
 import type { Project } from "../lib/projects";
 
+const productProjectSlugs = [
+  "project-research",
+  "summit-ai",
+  "amazon-redesign",
+  "spotify-social",
+  "one-studios",
+];
+
+const videoGameProjectSlugs = [
+  "exodus-board-game",
+  "line",
+  "exodus-2",
+  "exodus",
+  "reveille",
+  "pandakitori",
+  "rpgame",
+  "retail-assault",
+  "d-day",
+];
+
 function ProjectCard({
   slug,
   title,
@@ -59,8 +79,53 @@ function ProjectCard({
   );
 }
 
+type ProjectSegmentProps = {
+  title: string;
+  projects: Project[];
+};
+
+function getSegmentHeadingId(title: string) {
+  return `${title.toLowerCase().replace(/\s+/g, "-")}-heading`;
+}
+
+function ProjectSegment({ title, projects }: ProjectSegmentProps) {
+  if (projects.length === 0) {
+    return null;
+  }
+
+  const headingId = getSegmentHeadingId(title);
+
+  return (
+    <section aria-labelledby={headingId}>
+      <header className="mb-6 flex flex-col gap-2 sm:mb-8">
+        <h3
+          id={headingId}
+          className="font-monofonto text-2xl tracking-portfolio text-portfolio-green sm:text-3xl"
+        >
+          {title}
+        </h3>
+      </header>
+
+      <ul className="grid list-none gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {projects.map((project) => (
+          <li key={project.slug}>
+            <ProjectCard {...project} />
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
 export function SelectedWorksSection() {
   const projects = getAllProjects();
+  const projectsBySlug = new Map(projects.map((project) => [project.slug, project]));
+  const productProjects = productProjectSlugs
+    .map((slug) => projectsBySlug.get(slug))
+    .filter((project): project is Project => Boolean(project));
+  const videoGameProjects = videoGameProjectSlugs
+    .map((slug) => projectsBySlug.get(slug))
+    .filter((project): project is Project => Boolean(project));
 
   return (
     <section
@@ -68,26 +133,29 @@ export function SelectedWorksSection() {
       aria-labelledby="selected-works-heading"
       className="border-t border-portfolio-green/30 bg-[radial-gradient(circle_closest-corner,#1a1a1a,#181818)] text-portfolio-green"
     >
-      <div className="mx-auto w-full max-w-[940px] px-5 py-16 sm:py-20 md:py-24">
+      <div className="mx-auto w-full max-w-[1180px] px-5 py-16 sm:py-20 md:py-24">
         <header className="mb-10 flex flex-col gap-3 sm:mb-12 md:mb-16">
           <h2
             id="selected-works-heading"
-            className="font-monofonto text-3xl tracking-portfolio text-portfolio-green sm:text-4xl"
+            className="font-monofonto text-4xl tracking-portfolio text-portfolio-green sm:text-4xl"
           >
-            Selected products
+            Selected works
           </h2>
-          <p className="max-w-xl font-mono text-sm leading-relaxed text-portfolio-mist/80 sm:text-base">
-            A curated selection of recent design projects.
+          <p className="w-full font-mono text-sm leading-relaxed text-portfolio-mist/80 sm:text-base">
+            A curated selection of product, UX, branding, and game design case studies.
           </p>
         </header>
 
-        <ul className="grid list-none gap-6 sm:grid-cols-2 sm:gap-8">
-          {projects.map((project) => (
-            <li key={project.slug} className={project.featured ? "sm:col-span-2" : undefined}>
-              <ProjectCard {...project} />
-            </li>
-          ))}
-        </ul>
+        <div className="flex flex-col gap-14 sm:gap-16 md:gap-20">
+          <ProjectSegment
+            title="Products"
+            projects={productProjects}
+          />
+          <ProjectSegment
+            title="Video games"
+            projects={videoGameProjects}
+          />
+        </div>
       </div>
     </section>
   );

@@ -36,7 +36,7 @@ export function AboutSection() {
       aria-labelledby="about-heading"
       className="border-t border-portfolio-green/30 bg-[radial-gradient(circle_closest-corner,#1a1a1a,#181818)] text-portfolio-green"
     >
-      <div className="mx-auto w-full max-w-[940px] px-5 py-16 sm:py-20 md:py-24">
+      <div className="mx-auto w-full max-w-[1180px] px-5 py-16 sm:py-20 md:py-24">
         <header className="mb-10 flex flex-col gap-3 sm:mb-12 md:mb-16">
           <h2
             id="about-heading"
@@ -44,7 +44,7 @@ export function AboutSection() {
           >
             about
           </h2>
-          <p className="max-w-xl font-mono text-sm leading-relaxed text-portfolio-mist/80 sm:text-base">
+          <p className="w-full font-mono text-sm leading-relaxed text-portfolio-mist/80 sm:text-base">
             A short profile for your background, design practice, and the kind of
             work you want to be known for.
           </p>

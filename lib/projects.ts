@@ -1,3 +1,5 @@
+import { legacyProjects } from "./legacyProjects";
+
 export type CaseStudyImage = {
     src?: string;
     alt: string;
@@ -202,43 +204,7 @@ export const projects: Project[] = [
             ],
         },
     },
-    {
-        slug: "project-three",
-        title: "Project Three",
-        category: "Campaign",
-        year: "2024",
-        description: "Short description of the project. Replace with your own copy.",
-        coverImage: { alt: "Project Three cover" },
-        caseStudy: {
-            subtitle: "A multi-channel campaign for a product launch.",
-            overview:
-                "Campaign concepting and art direction across digital, OOH, and retail environments. Replace with your own summary.",
-            role: "Art Director",
-            timeline: "6 weeks",
-            deliverables: ["Campaign concept", "Key visuals", "Motion snippets", "Retail toolkit"],
-            sections: [
-                {
-                    id: "concept",
-                    title: "Concept",
-                    paragraphs: [
-                        "The campaign idea centers on everyday moments made sharper — tying product benefits to relatable visual metaphors.",
-                    ],
-                    images: [{ alt: "Campaign moodboard" }],
-                },
-                {
-                    id: "execution",
-                    title: "Execution",
-                    paragraphs: [
-                        "Hero visuals were adapted into a modular system for paid social, landing pages, and in-store displays.",
-                    ],
-                    images: [
-                        { alt: "Social ad variations" },
-                        { alt: "OOH mockup" },
-                    ],
-                },
-            ],
-        },
-    },
+    ...legacyProjects,
 ];
 
 export function getAllProjects(): Project[] {
