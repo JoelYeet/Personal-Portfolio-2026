@@ -29,6 +29,16 @@ body {
   cursor: none;
 }
 
+@media (max-width: 767px), (hover: none), (pointer: coarse) {
+  body {
+    cursor: auto;
+  }
+
+  .custom-cursor {
+    display: none;
+  }
+}
+
 .particles-js-canvas-el {
   position: absolute;
   inset: 0;

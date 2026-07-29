@@ -22,7 +22,7 @@ export function CustomCursor() {
 
     return (
         <div
-            className="pointer-events-none fixed left-0 top-0 z-[9999]"
+            className="custom-cursor pointer-events-none fixed left-0 top-0 z-[9999]"
             style={{
                 transform: `translate(${position.x}px, ${position.y}px)`,
             }}
