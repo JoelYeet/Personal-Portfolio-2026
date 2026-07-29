@@ -141,9 +141,6 @@ export function SelectedWorksSection() {
           >
             Selected works
           </h2>
-          <p className="w-full font-mono text-sm leading-relaxed text-portfolio-mist/80 sm:text-base">
-            A curated selection of product, UX, branding, and game design case studies.
-          </p>
         </header>
 
         <div className="flex flex-col gap-14 sm:gap-16 md:gap-20">

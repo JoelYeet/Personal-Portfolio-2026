@@ -1,31 +1,41 @@
 const educationItems = [
   {
-    qualification: "Bachelor of Design",
-    institution: "Design University",
-    period: "2020 - 2024",
+    qualification: "Bachelor of Arts (Honours with Distinction) - User Experience and Game Design",
+    institution: "DigiPen Institute of Technology Singapore",
+    period: "Apr 2022 - Apr 2026",
   },
   {
-    qualification: "Diploma in Visual Communication",
-    institution: "Creative Polytechnic",
-    period: "2017 - 2020",
+    qualification: "Diploma - Business Information Technology",
+    institution: "Singapore Polytechnic",
+    period: "Apr 2017 - Apr 2020",
   },
 ];
 
 const experienceItems = [
   {
-    role: "UX Designer",
-    company: "Studio Placeholder",
-    period: "2025 - Present",
+    role: "Interactive Designer",
+    company: "Central Provident Fund Board",
+    period: "May 2026 - Present",
   },
   {
-    role: "Digital Design Intern",
-    company: "Product Company",
-    period: "2024 - 2025",
+    role: "Service Design Intern",
+    company: "Central Provident Fund Board",
+    period: "September 2025 - April 2026",
   },
   {
-    role: "Freelance Designer",
-    company: "Independent",
-    period: "2022 - 2024",
+    role: "UX and Data Science Intern",
+    company: "Ministry of Defence",
+    period: "June 2025 - September 2025",
+  },
+  {
+    role: "Business Transformation and Design Intern",
+    company: "OCBC",
+    period: "Mar 2019 - Aug 2019",
+  },
+  {
+    role: "Branding Intern",
+    company: "Systematic Controls Pte Ltd",
+    period: "Sept 2018 - Feb 2019",
   },
 ];
 
@@ -42,68 +52,49 @@ export function AboutSection() {
             id="about-heading"
             className="font-monofonto text-3xl tracking-portfolio text-portfolio-green sm:text-4xl"
           >
-            about
+            About
           </h2>
           <p className="w-full font-mono text-sm leading-relaxed text-portfolio-mist/80 sm:text-base">
-            A short profile for your background, design practice, and the kind of
-            work you want to be known for.
+            Designing for Purpose, Play and Accessibility. 2026 Fresh Graduate.
           </p>
         </header>
 
-        <div className="grid gap-10 md:grid-cols-[1.1fr_1fr] md:gap-12">
+        <div className="flex w-full flex-col gap-12 sm:gap-14 md:gap-16">
           <section aria-labelledby="bio-heading" className="flex flex-col gap-4">
             <h3
               id="bio-heading"
               className="font-monofonto text-2xl tracking-portfolio text-portfolio-green"
             >
-              bio
+              Bio
             </h3>
             <div className="flex flex-col gap-4">
               <p className="font-mono text-sm leading-relaxed text-portfolio-mist/80 sm:text-base">
-                Placeholder bio copy. Introduce yourself, your UX approach, and
-                the design problems you enjoy working on.
+                Hello, I'm Joel! a multidisciplinary designer specialising in
+                interactive, gamified experiences and digital product design.
               </p>
               <p className="font-mono text-sm leading-relaxed text-portfolio-mist/80 sm:text-base">
-                Add a little personality here too: your point of view, your
-                creative process, and what makes your portfolio feel like yours.
+                Professionally, I enjoy creating thoughtful and accessible products
+                that balance user needs with clear, effective solutions. With
+                experience across UX, UI and game design, I bring together
+                creativity, research and technology to design experiences that are
+                both engaging and purposeful.
+              </p>
+              <p className="font-mono text-sm leading-relaxed text-portfolio-mist/80 sm:text-base">
+                Outside of work, I am an avid fan of games, particularly
+                single-player experiences. I am fascinated by how video game
+                environments, storytelling and role-playing mechanics can connect
+                with players on a psychological and emotional level.
               </p>
             </div>
           </section>
 
-          <div className="flex flex-col gap-10">
-            <section aria-labelledby="education-heading" className="flex flex-col gap-5">
-              <h3
-                id="education-heading"
-                className="font-monofonto text-2xl tracking-portfolio text-portfolio-green"
-              >
-                education
-              </h3>
-              <ul className="flex list-none flex-col gap-4">
-                {educationItems.map((item) => (
-                  <li
-                    key={`${item.qualification}-${item.period}`}
-                    className="border-l border-portfolio-green/40 pl-4"
-                  >
-                    <p className="font-mono text-xs uppercase tracking-wide text-portfolio-particle">
-                      {item.period}
-                    </p>
-                    <p className="mt-2 font-mono text-sm text-portfolio-mist sm:text-base">
-                      {item.qualification}
-                    </p>
-                    <p className="mt-1 font-mono text-sm text-portfolio-mist/70">
-                      {item.institution}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            </section>
-
+          <div className="grid gap-12 md:grid-cols-2 md:gap-10 lg:gap-14">
             <section aria-labelledby="experience-heading" className="flex flex-col gap-5">
               <h3
                 id="experience-heading"
                 className="font-monofonto text-2xl tracking-portfolio text-portfolio-green"
               >
-                experience
+                Experience
               </h3>
               <ul className="flex list-none flex-col gap-4">
                 {experienceItems.map((item) => (
@@ -119,6 +110,33 @@ export function AboutSection() {
                     </p>
                     <p className="mt-1 font-mono text-sm text-portfolio-mist/70">
                       {item.company}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </section>
+
+            <section aria-labelledby="education-heading" className="flex flex-col gap-5">
+              <h3
+                id="education-heading"
+                className="font-monofonto text-2xl tracking-portfolio text-portfolio-green"
+              >
+                Education
+              </h3>
+              <ul className="flex list-none flex-col gap-4">
+                {educationItems.map((item) => (
+                  <li
+                    key={`${item.qualification}-${item.period}`}
+                    className="border-l border-portfolio-green/40 pl-4"
+                  >
+                    <p className="font-mono text-xs uppercase tracking-wide text-portfolio-particle">
+                      {item.period}
+                    </p>
+                    <p className="mt-2 font-mono text-sm text-portfolio-mist sm:text-base">
+                      {item.qualification}
+                    </p>
+                    <p className="mt-1 font-mono text-sm text-portfolio-mist/70">
+                      {item.institution}
                     </p>
                   </li>
                 ))}
