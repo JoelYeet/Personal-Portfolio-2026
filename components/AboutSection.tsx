@@ -14,7 +14,7 @@ const educationItems = [
 const experienceItems = [
   {
     role: "Interactive Designer",
-    company: "Central Provident Fund Board",
+    company: "Contract - Central Provident Fund Board",
     period: "May 2026 - Present",
   },
   {
