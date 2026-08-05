@@ -254,30 +254,32 @@ export const projects: Project[] = [
         category: "Interactive Experience",
         year: "2026",
         description:
-            "A playful interactive project that turns the familiar action of reeling into an engaging digital experience built around timing, feedback, and discovery.",
+            "An educational game designed for older CPF members to build digital confidence and improve awareness of phishing scams.",
         coverImage: {
             src: "/images/Reel It In/Cover.jpg", alt: "Reel It In project cover placeholder",
         },
         caseStudy: {
             subtitle:
-                "A playful interactive experience centred on responsive controls, timing, and discovery.",
+                "An educational game designed for older CPF members to build digital confidence and improve awareness of phishing scams.",
             overview:
-                "Reel It In transforms a simple physical idea into a lively digital interaction. Players respond to visual cues, test their timing, and receive immediate feedback as they work toward a successful catch.",
+                "Reel It In is an educational game that I designed and developed for CPF Board as part of the TryLab initiative. Created for older CPF members, the game aims to build digital confidence and improve awareness of phishing scams in a simple and approachable way.",
             role: "Designer and Developer",
             timeline: "4 months",
-            deliverables: ["Experience design", "Interaction design", "Visual design", "Prototype"],
+            deliverables: ["Experience design", "Interaction design", "Visual design", "Gamified Experiences"],
             sections: [
                 {
-                    id: "project-gallery",
-                    title: "Project gallery",
+                    id: "about-the-project",
+                    title: "About the project",
                     paragraphs: [
-                        "The project focuses on making each action feel intuitive and rewarding through clear visual communication, responsive feedback, and a playful presentation.",
+                        "I was responsible for the entire development process, including the game concept, visual direction, user experience, gameplay mechanics, educational content and development.",
+                        "Players reel in different fish, with each catch presenting a statement that they must identify as true or false. At the end of the game, players encounter a golden fish that introduces a scenario-based question involving an attempted phishing scam.",
+                        "Reel It In was built in Unity and runs on a Samsung Galaxy S10+ tablet. It is currently available for members of the public to play at CPF Jurong Service Centre.",
                     ],
                     videos: [
                         {
                             videoId: "rca6qAiQl94",
                             title: "Reel It In demo video",
-                            caption: "A video demonstration of the Reel It In interactive experience.",
+                            caption: "Reel It In Demo - Samsung Galaxy S10+",
                         },
                     ],
                     images: [
