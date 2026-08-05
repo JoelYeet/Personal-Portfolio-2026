@@ -241,7 +241,7 @@ export const projects: Project[] = [
                     images: [
                         { src: "/images/Spot The Fake/1.jpg", alt: "Spot The Fake image 1" },
                         { src: "/images/Spot The Fake/2.jpg", alt: "Spot The Fake image 2" },
-                        { src: "/images/Spot The Fake/3.jpeg", alt: "Spot The Fake image 3" },
+                        { src: "/images/Spot The Fake/3.jpg", alt: "Spot The Fake image 3" },
                         { src: "/images/Spot The Fake/4.jpg", alt: "Spot The Fake image 4" },
                     ],
                 },
@@ -265,7 +265,7 @@ export const projects: Project[] = [
                 "Reel It In is an educational game that I designed and developed for CPF Board as part of the TryLab initiative. Created for older CPF members, the game aims to build digital confidence and improve awareness of phishing scams in a simple and approachable way.",
             role: "Designer and Developer",
             timeline: "4 months",
-            deliverables: ["Experience design", "Interaction design", "Visual design", "Gamified Experiences"],
+            deliverables: ["Experience design", "Interaction design", "Visual design", "Gamified experiences"],
             sections: [
                 {
                     id: "about-the-project",
@@ -287,7 +287,7 @@ export const projects: Project[] = [
                         { src: "/images/Reel It In/2.jpg", alt: "Reel It In image 2" },
                         { src: "/images/Reel It In/3.jpg", alt: "Reel It In image 3" },
                         { src: "/images/Reel It In/4.jpg", alt: "Reel It In image 4" },
-                        { src: "/images/Reel It In/5.jpeg", alt: "Reel It In image 5" },
+                        { src: "/images/Reel It In/5.jpg", alt: "Reel It In image 5" },
                     ],
                 },
             ],
