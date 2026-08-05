@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\HeroSection.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\LottieAnimation.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\LottieAnimation.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\ImageLightbox.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\ImageLightbox.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\AboutSection.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\AboutSection.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\SiteFooter.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\SiteFooter.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\SiteHeader.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -31,8 +27,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\ParticleBackground.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\ImageLightbox.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\ImageLightbox.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\SiteFooter.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\SiteFooter.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\LottieAnimation.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\LottieAnimation.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\SelectedWorksSection.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -54,11 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "AboutSection.tsx",
+              "DocumentMoniker": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\AboutSection.tsx",
+              "RelativeDocumentMoniker": "components\\AboutSection.tsx",
+              "ToolTip": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\AboutSection.tsx",
+              "RelativeToolTip": "components\\AboutSection.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-29T06:40:43.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SiteHeader.tsx",
               "DocumentMoniker": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\SiteHeader.tsx",
               "RelativeDocumentMoniker": "components\\SiteHeader.tsx",
@@ -66,25 +79,11 @@
               "RelativeToolTip": "components\\SiteHeader.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-07-29T07:02:05.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-29T07:02:05.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TypewriterText.tsx",
-              "DocumentMoniker": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\TypewriterText.tsx",
-              "RelativeDocumentMoniker": "components\\TypewriterText.tsx",
-              "ToolTip": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\TypewriterText.tsx",
-              "RelativeToolTip": "components\\TypewriterText.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-07-29T07:02:04.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "SiteFooter.tsx",
               "DocumentMoniker": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\SiteFooter.tsx",
               "RelativeDocumentMoniker": "components\\SiteFooter.tsx",
@@ -92,21 +91,7 @@
               "RelativeToolTip": "components\\SiteFooter.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-07-29T07:02:03.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ParticleBackground.tsx",
-              "DocumentMoniker": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\ParticleBackground.tsx",
-              "RelativeDocumentMoniker": "components\\ParticleBackground.tsx",
-              "ToolTip": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\ParticleBackground.tsx",
-              "RelativeToolTip": "components\\ParticleBackground.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-07-29T07:02:02.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-29T07:02:03.618Z"
             },
             {
               "$type": "Document",
@@ -116,27 +101,51 @@
               "RelativeDocumentMoniker": "components\\HeroSection.tsx",
               "ToolTip": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\HeroSection.tsx",
               "RelativeToolTip": "components\\HeroSection.tsx",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2026-07-29T07:02:01.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "TypewriterText.tsx",
+              "DocumentMoniker": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\TypewriterText.tsx",
+              "RelativeDocumentMoniker": "components\\TypewriterText.tsx",
+              "ToolTip": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\TypewriterText.tsx",
+              "RelativeToolTip": "components\\TypewriterText.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-29T07:02:04.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ParticleBackground.tsx",
+              "DocumentMoniker": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\ParticleBackground.tsx",
+              "RelativeDocumentMoniker": "components\\ParticleBackground.tsx",
+              "ToolTip": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\ParticleBackground.tsx",
+              "RelativeToolTip": "components\\ParticleBackground.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-29T07:02:02.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ImageLightbox.tsx",
               "DocumentMoniker": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\ImageLightbox.tsx",
               "RelativeDocumentMoniker": "components\\ImageLightbox.tsx",
               "ToolTip": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\ImageLightbox.tsx",
               "RelativeToolTip": "components\\ImageLightbox.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwEcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2026-07-29T07:02:01.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "LottieAnimation.tsx",
               "DocumentMoniker": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\LottieAnimation.tsx",
               "RelativeDocumentMoniker": "components\\LottieAnimation.tsx",
@@ -144,21 +153,7 @@
               "RelativeToolTip": "components\\LottieAnimation.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-07-29T07:02:00.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AboutSection.tsx",
-              "DocumentMoniker": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\AboutSection.tsx",
-              "RelativeDocumentMoniker": "components\\AboutSection.tsx",
-              "ToolTip": "C:\\Users\\madef\\OneDrive\\Desktop\\Personal-Portfolio-2026\\components\\AboutSection.tsx",
-              "RelativeToolTip": "components\\AboutSection.tsx",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAswHwAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-07-29T06:40:43.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-29T07:02:00.513Z"
             },
             {
               "$type": "Document",
@@ -170,8 +165,7 @@
               "RelativeToolTip": "components\\case-study\\CaseStudyView.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-07-29T06:40:37.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-29T06:40:37.446Z"
             },
             {
               "$type": "Document",
@@ -183,8 +177,7 @@
               "RelativeToolTip": "components\\SelectedWorksSection.tsx",
               "ViewState": "AgIAAHMAAAAAAAAAAAAYwI8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-06-09T08:30:44.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-09T08:30:44.4Z"
             },
             {
               "$type": "Document",

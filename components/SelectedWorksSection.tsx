@@ -6,9 +6,11 @@ import type { Project } from "../lib/projects";
 const productProjectSlugs = [
   "project-research",
   "summit-ai",
+  "spot-the-fake",
+  "reel-it-in",
   "amazon-redesign",
   "spotify-social",
-  "one-studios",
+  //"one-studios",
 ];
 
 const videoGameProjectSlugs = [
@@ -145,7 +147,7 @@ export function SelectedWorksSection() {
 
         <div className="flex flex-col gap-14 sm:gap-16 md:gap-20">
           <ProjectSegment
-            title="Products"
+            title="Products and Experiences"
             projects={productProjects}
           />
           <ProjectSegment

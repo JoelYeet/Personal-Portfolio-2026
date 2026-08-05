@@ -204,6 +204,93 @@ export const projects: Project[] = [
             ],
         },
     },
+    {
+        slug: "spot-the-fake",
+        title: "Spot The Fake",
+        category: "Interactive Experience",
+        year: "2026",
+        description:
+            "An interactive educational game designed to help older CPF members recognise common signs of scams.",
+        coverImage: {
+            src: "/images/Spot The Fake/Cover.jpg", alt: "Spot The Fake project cover placeholder",
+        },
+        caseStudy: {
+            subtitle:
+                "An interactive educational game designed to help older CPF members recognise common signs of scams.",
+            overview:
+                "Spot the Fake is an interactive educational game designed to help older CPF members recognise common signs of scams.",
+            role: "Designer and Developer",
+            timeline: "4 months",
+            deliverables: ["Experience design", "Interaction design", "Educational design", "Gamification design"],
+            sections: [
+                {
+                    id: "about-the-project",
+                    title: "About the project",
+                    paragraphs: [
+                        "I developed the project independently during my internship with CPF Board, and later continued working on it as a contractor. The game was created as part of TryLab, a learning space located within the newly renovated Jurong Service Centre.",
+                        "In the game, players compare real and fake examples, identify suspicious details, and learn what to look out for when receiving messages or information. The experience was designed to be simple, approachable and easy to understand, especially for seniors who may be less familiar with digital scams.",
+                        "Spot the Fake was built in Unity and runs on a Samsung Galaxy S10+ tablet. It is currently available for members of the public to play at CPF Jurong Service Centre.",
+                    ],
+                    videos: [
+                        {
+                            videoId: "yRLWYgNj1Z0",
+                            title: "Spot The Fake demo video",
+                            caption: "Spot the Fake Demo - Samsung Galaxy S10+",
+                        },
+                    ],
+                    images: [
+                        { src: "/images/Spot The Fake/1.jpg", alt: "Spot The Fake image 1" },
+                        { src: "/images/Spot The Fake/2.jpg", alt: "Spot The Fake image 2" },
+                        { src: "/images/Spot The Fake/3.jpeg", alt: "Spot The Fake image 3" },
+                        { src: "/images/Spot The Fake/4.jpg", alt: "Spot The Fake image 4" },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        slug: "reel-it-in",
+        title: "Reel It In",
+        category: "Interactive Experience",
+        year: "2026",
+        description:
+            "A playful interactive project that turns the familiar action of reeling into an engaging digital experience built around timing, feedback, and discovery.",
+        coverImage: {
+            src: "/images/Reel It In/Cover.jpg", alt: "Reel It In project cover placeholder",
+        },
+        caseStudy: {
+            subtitle:
+                "A playful interactive experience centred on responsive controls, timing, and discovery.",
+            overview:
+                "Reel It In transforms a simple physical idea into a lively digital interaction. Players respond to visual cues, test their timing, and receive immediate feedback as they work toward a successful catch.",
+            role: "Designer and Developer",
+            timeline: "4 months",
+            deliverables: ["Experience design", "Interaction design", "Visual design", "Prototype"],
+            sections: [
+                {
+                    id: "project-gallery",
+                    title: "Project gallery",
+                    paragraphs: [
+                        "The project focuses on making each action feel intuitive and rewarding through clear visual communication, responsive feedback, and a playful presentation.",
+                    ],
+                    videos: [
+                        {
+                            videoId: "rca6qAiQl94",
+                            title: "Reel It In demo video",
+                            caption: "A video demonstration of the Reel It In interactive experience.",
+                        },
+                    ],
+                    images: [
+                        { src: "/images/Reel It In/1.jpg", alt: "Reel It In image 1" },
+                        { src: "/images/Reel It In/2.jpg", alt: "Reel It In image 2" },
+                        { src: "/images/Reel It In/3.jpg", alt: "Reel It In image 3" },
+                        { src: "/images/Reel It In/4.jpg", alt: "Reel It In image 4" },
+                        { src: "/images/Reel It In/5.jpeg", alt: "Reel It In image 5" },
+                    ],
+                },
+            ],
+        },
+    },
     ...legacyProjects,
 ];
 

@@ -129,7 +129,7 @@ export const legacyProjects: Project[] = [
   {
     "slug": "exodus-board-game",
     "title": "EXODUS Board Game",
-    "category": "Product Design",
+    "category": "Board Game",
     "year": "20xx",
     "description": "A conceptual adaptation of Exodus into a board game format.",
     "coverImage": {
@@ -192,7 +192,7 @@ export const legacyProjects: Project[] = [
   {
     "slug": "line",
     "title": "LINE",
-    "category": "Product Design",
+    "category": "Card Game",
     "year": "20xx",
     "description": "A four player card game about racing to the centre of the map. Four players play on a 13x13 tile grid with four starting spaces on the middle of each edge.",
     "coverImage": {
