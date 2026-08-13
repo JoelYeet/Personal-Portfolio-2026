@@ -2,10 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\app",
+    "\\app\\projects",
+    "\\app\\projects\\[slug]",
     "\\components",
     "\\components\\case-study",
     "\\lib"
   ],
-  "SelectedNode": "\\components\\AboutSection.tsx",
+  "SelectedNode": "\\lib\\projects.ts",
   "PreviewInSolutionExplorer": false
 }

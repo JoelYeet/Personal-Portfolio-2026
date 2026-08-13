@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inconsolata, Inter } from "next/font/google";
 import "./globals.css";
-import { CustomCursor } from "@/components/CustomCursor";
 
 
 const inconsolata = Inconsolata({
@@ -33,7 +32,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inconsolata.variable} ${inter.variable}`}>
           <body>
-              <CustomCursor />
               {children}
           </body>
     </html>
