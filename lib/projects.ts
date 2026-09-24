@@ -227,7 +227,7 @@ export const projects: Project[] = [
                     id: "about-the-project",
                     title: "About the project",
                     paragraphs: [
-                        "I developed the project independently during my internship with CPF Board, and later continued working on it as a contractor. The game was created as part of TryLab, a learning space located within the newly renovated Jurong Service Centre.",
+                        "I developed the project during my internship with CPF Board, and later continued working on it as a contractor. The game was created as part of TryLab, a learning space located within the newly renovated Jurong Service Centre.",
                         "In the game, players compare real and fake examples, identify suspicious details, and learn what to look out for when receiving messages or information. The experience was designed to be simple, approachable and easy to understand, especially for seniors who may be less familiar with digital scams.",
                         "Spot the Fake was built in Unity and runs on a Samsung Galaxy S10+ tablet. It is currently available for members of the public to play at CPF Jurong Service Centre.",
                     ],
@@ -271,7 +271,7 @@ export const projects: Project[] = [
                     id: "about-the-project",
                     title: "About the project",
                     paragraphs: [
-                        "I was responsible for the entire development process, including the game concept, visual direction, user experience, gameplay mechanics, educational content and development.",
+                        "I was responsible for the main development process, including the game concept, visual direction, user experience, gameplay mechanics, educational content and development.",
                         "Players reel in different fish, with each catch presenting a statement that they must identify as true or false. At the end of the game, players encounter a golden fish that introduces a scenario-based question involving an attempted phishing scam.",
                         "Reel It In was built in Unity and runs on a Samsung Galaxy S10+ tablet. It is currently available for members of the public to play at CPF Jurong Service Centre.",
                     ],
